@@ -62,5 +62,5 @@ func (a *App) RunServer() {
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
-	responses.JSON(w, http.StatusOK, "Welcome To Ivents")
+	responses.JSON(w, http.StatusOK, "Welcome To GOREST")
 }
